@@ -28,7 +28,6 @@ const ListItem = styled.li<{ menu?: any }>`
         duration-300
         ease-in-out
         hover:text-secondary
-        md:hover:border-b-2
         md:hover:text-primary
     `};
 
@@ -59,15 +58,19 @@ const NavItems = () => {
          <Menu right styles={menuStyles}>
             <ListContainer>
                <ListItem menu>
+                  {/* eslint-disable-next-line */}
                   <a href="#">Rent</a>
                </ListItem>
                <ListItem menu>
+                  {/* eslint-disable-next-line */}
                   <a href="#">Share</a>
                </ListItem>
                <ListItem menu>
+                  {/* eslint-disable-next-line */}
                   <a href="#">Ride</a>
                </ListItem>
                <ListItem menu>
+                  {/* eslint-disable-next-line */}
                   <a href="#">Service</a>
                </ListItem>
             </ListContainer>
@@ -83,15 +86,19 @@ const NavItems = () => {
       <>
          <ListContainer>
             <ListItem>
+               {/* eslint-disable-next-line */}
                <a href="#">Rent</a>
             </ListItem>
             <ListItem>
+               {/* eslint-disable-next-line */}
                <a href="#">Share</a>
             </ListItem>
             <ListItem>
+               {/* eslint-disable-next-line */}
                <a href="#">Ride</a>
             </ListItem>
             <ListItem>
+               {/* eslint-disable-next-line */}
                <a href="#">Service</a>
             </ListItem>
          </ListContainer>

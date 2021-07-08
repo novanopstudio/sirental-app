@@ -165,7 +165,6 @@ const BookCard = () => {
    const [returnDate, setReturnDate] = useState(startDate);
    const [startCalendarOpen, setStartCalendarOpen] = useState(false);
    const [returnCalendarOpen, setReturnCalendarOpen] = useState(false);
-   const [locationOpen, setLocationOpen] = useState(false);
 
    const toggleStartCal = () => {
       setStartCalendarOpen(!startCalendarOpen);

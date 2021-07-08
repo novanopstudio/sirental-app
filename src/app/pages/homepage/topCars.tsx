@@ -100,10 +100,12 @@ const TopCars = () => {
 
    useEffect(() => {
       fetchTopCars();
+      // eslint-disable-next-line
    }, []);
 
    const isEmptyTopCars = !topCars || topCars.length === 0;
 
+   // eslint-disable-next-line
    const cars = !isEmptyTopCars && topCars.map((car) => <Car {...car} thumbnailSrc={car.thumbnailURL} />) || [];
 
    const numberOfDots = isMobile ? cars.length : Math.ceil(cars.length / 3);

@@ -183,20 +183,30 @@ const Footer = () => {
             <SectionContainer>
                <HeaderTitle>Our Links</HeaderTitle>
                <LinksList>
+                  {/* eslint-disable-next-line */}
                   <ListItem><a href="#">Home</a></ListItem>
+                  {/* eslint-disable-next-line */}
                   <ListItem><a href="#">About Us</a></ListItem>
+                  {/* eslint-disable-next-line */}
                   <ListItem><a href="#">Services</a></ListItem>
+                  {/* eslint-disable-next-line */}
                   <ListItem><a href="#">Models</a></ListItem>
+                  {/* eslint-disable-next-line */}
                   <ListItem><a href="#">Blogs</a></ListItem>
                </LinksList>
             </SectionContainer>
             <SectionContainer>
                <HeaderTitle>Other Links</HeaderTitle>
                <LinksList>
+                  {/* eslint-disable-next-line */}
                   <ListItem><a href="#">Contact Us</a></ListItem>
+                  {/* eslint-disable-next-line */}
                   <ListItem><a href="#">FAQ</a></ListItem>
+                  {/* eslint-disable-next-line */}
                   <ListItem><a href="#">Privacy Polycy</a></ListItem>
+                  {/* eslint-disable-next-line */}
                   <ListItem><a href="#">Term of Service</a></ListItem>
+                  {/* eslint-disable-next-line */}
                   <ListItem><a href="#">Payment</a></ListItem>
                </LinksList>
             </SectionContainer>
